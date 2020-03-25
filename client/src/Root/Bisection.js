@@ -148,35 +148,6 @@ class Bisection extends Component
                     });
                 }
               }
-            /*createTable = () => {
-                let table = []
-                children2 = []
-                for (let i = -1; i < arr_iteration.length; i++) {
-                    let children = []
-                  if(i == -1){
-                    children.push(
-                        <th>iteration</th>,
-                        <th>xm</th>,
-                        <th>f(xm)</th>,
-                        <th>error</th>)
-                  }else{
-                    children.push(
-                        <td>{arr_iteration[i]}</td>,
-                        <td>{arr_x[i]}</td>,
-                        <td>{arr_y[i]}</td>,
-                        <td>{arr_error[i]}</td>)
-                    
-                    children2.push({
-                        iteration: i + 1,
-                        x: arr_x[i],
-                        y: arr_y[i],
-                        error: arr_error[i],
-                    });
-                  }
-                  table.push(<tr>{children}</tr>)
-                }
-                return table
-              }*/
     
               data = () => {
                   fx2 = this.state.fxx
